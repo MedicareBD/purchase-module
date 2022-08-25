@@ -1,0 +1,26 @@
+{
+    "name": "bishwajitcadhikary/purchase",
+    "description": "",
+    "type": "laravel-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bishwajit Adhikary",
+            "email": "bishwajitcadhikary@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Purchase\\": ""
+        }
+    },
+    "minimum-stability": "dev"
+}
