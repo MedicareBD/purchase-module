@@ -16,9 +16,4 @@ class Purchase extends Model
     {
         return $this->hasMany(PurchaseItem::class, 'purchase_id', 'id');
     }
-
-    protected static function newFactory()
-    {
-        return \Modules\Purchase\Database\factories\PurchaseFactory::new();
-    }
 }

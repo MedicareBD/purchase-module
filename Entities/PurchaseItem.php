@@ -16,9 +16,4 @@ class PurchaseItem extends Model
     {
         return $this->belongsTo(Purchase::class, 'purchase_id', 'id');
     }
-
-    protected static function newFactory()
-    {
-        return \Modules\Purchase\Database\factories\PurchaseItemFactory::new();
-    }
 }
